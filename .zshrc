@@ -50,3 +50,7 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 # Yubico PIV Tool
 alias yubiadd="ssh-add -s /usr/local/lib/libykcs11.dylib"
 alias yubirm="ssh-add -e /usr/local/lib/libykcs11.dylib"
+
+# MySQL
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/Users/larcho/.dotnet/tools:$PATH"
